@@ -9,11 +9,13 @@ export default createGlobalStyle`
   }
 
   body {
+    background: black;
     -webkit-font-smoothig: antialiased;
   }
 
   body, input, button {
-    font: 16px Roboto, sans-serif;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
   }
 
   #root {
